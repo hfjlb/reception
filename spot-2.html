@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery341.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title>spot2</title>
+</head>
+<body id="spotPage">
+    <header>
+        <div class="header-wrap ml-2">
+            <img src="img/left-w.svg" class="mr-1">
+            <a href="spot-1.html">戻る</a>
+        </div>
+    </header>
+    <section class="inner">
+        <div class="content">
+            <h5 class='mt-4 line-height'>
+                あなたの興味を教えて下さい。 <br>あなたの興味を学習することでよりお好みの旅程が提案できます。 <br>これから表示するスポットについて興味度を教えて下さい。
+            </h5>
+        </div>
+        <div class="content mt-5">
+            <div class="d-flex justify-content-end align-items-center b-text">
+                <p class="mr-auto">黒川温泉</p>
+                <p>2/12</p>
+            </div>
+            <div class="img_wrap">
+                <img src="img/photo/image1.jpg">
+            </div>
+            <div class="text_wrap mt-3">
+                <p>黒川温泉は、熊本県阿蘇郡にある温泉で、南小国温泉郷の一つを構成しています。全国屈指の人気温泉地として知られ、2009年版ミシュラン・グリーンガイド・ジャポンでは、温泉地としては異例の二つ星で掲載されています。<br>田の原川の渓谷の両側に和風旅館が建ち並び、歓楽的要素や派手な看板を廃して統一的な町並みを形成する方策のため、温泉街全体が落ち着いた雰囲気を見せています。<br>ほとんどの旅館に露天風呂があり、旅行者は「入湯手形」を購入することにより、3カ所まで選んで入浴することができます。
+                </p>
+            </div>
+            <p
+                class="p-2">URL：<a href="http://www.kurokawaonsen.or.jp" target="_blank" rel="noopener noreferrer">http://www.kurokawaonsen.or.jp</a></p>
+
+            <div class="radio_wrap">
+                <p>興味度</p>
+                <label><input class="radio-test" type="radio" name="radio-name"><span>絶対行きたい</span></label><br>
+                <label><input class="radio-test" type="radio" name="radio-name"><span>行けたら行きたい</span></label><br>
+                <label><input class="radio-test" type="radio" name="radio-name"><span>どちらでもない</span></label><br>
+                <label><input class="radio-test" type="radio" name="radio-name"><span>あまり行きたくない</span></label><br>
+                <label><input class="radio-test" type="radio" name="radio-name"><span>行かない</span></label><br>
+            </div>
+        </div>
+        <div class="content btn-wrap">
+            <a href=" root_select.html" class="btn btn-1 mt-4 mb-5">次へ</a>
+        </div>
+
+    </section>
+    <script>
+        $(function () {
+            $('.check_btn').on('click', function () {
+                $(this).toggleClass('check_tggle');
+            });
+        });
+    </script>
+</body>
+</html>

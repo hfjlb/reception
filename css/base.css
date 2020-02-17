@@ -1,0 +1,354 @@
+body {
+    font-family: 'ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,sans-serif;
+    color: #707070;
+    overflow-x: hidden;
+}
+.inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.btn-wrap a{
+    width: 100%;
+}
+header {
+    background-color: #5690C7;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    overflow-x: hidden;
+}
+header h6 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 110px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.header-wrap{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.header-wrap a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header-wrap img{
+    width: 15px;
+    height: 15px;
+}
+
+.select-text {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent url(/img/down.svg) no-repeat center right 8px/16px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 0.4em 0.8em;
+  width: 100%;
+}
+
+.select-text::-ms-expand {
+  display: none;
+}
+
+.select-text:focus {
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+}
+.date{
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 0.4em 0;
+    width: 100%;
+    height: 40px;
+    color: #707070;
+}
+
+.text {
+  	-moz-appearance: none;
+  	-webkit-appearance: none;
+  	appearance: none;
+  	background-color: transparent;
+  	background-image: none;
+  	border: 1px solid rgba(0, 0, 0, 0.16);
+  	border-radius: 0;
+  	color: inherit;
+  	font-family: inherit;
+  	font-size: 1em;
+  	padding: 0.4em 0.8em;
+    width: 100%;
+}
+
+.text:focus {
+  	border: 1px solid rgba(0, 0, 0, 0.32);
+  	box-shadow: none;
+  	outline: none;
+}
+.yen{
+    content: '円';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.4);
+    top: 33px;
+    right: 20px;
+}
+    .radio-test {
+    display: none;
+    }
+    .radio-test + span {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0.2em 0;
+    padding: 0 0 0 1.2em;
+    position: relative;
+    }
+    .radio-test + span::before {
+    -webkit-transform: translateY(-50%);
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    }
+    
+    .radio-test + span::after {
+    -webkit-transform: translateY(-50%);
+    background: #5690C7;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    content: "";
+    height: 8px;
+    left: 4px;
+    opacity: 0;
+    padding: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease 0s;
+    width: 8px;
+    }
+    
+    .radio-test:checked + span::after {
+    opacity: 1;
+    }
+
+    .check_btn{
+        border: 1px solid #707070;
+        transition: ease 0.3s;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .check_btn p{
+        margin: 0;
+    }
+    .check_tggle {
+        background-color:#FDDE83;
+    }
+    .content h5{
+        line-height: normal;
+    }
+
+    .b-text{
+        color: #5690C7;
+        font-size: 18px;
+    }
+    .img_wrap img{
+        width: 100%;
+        height: 100%;
+    }
+    .text_wrap{
+        padding: 5px;
+        border: #707070 1px solid;
+    }
+    .text_wrap p{
+        line-height: 1.7;
+    }
+    .plan_wrap{
+        border: 1px solid #707070;
+        padding: 10px;
+    }
+    .plan_wrap:hover{
+        background-color: #FDDE83;
+        
+    }
+    .text-s{
+        font-size: 12px;
+    }
+    .text-ss{
+        font-size: 8px;
+    }
+    .map_wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* = height ÷ width × 100 */
+}
+    .map_wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.city{
+    border: #707070 1px solid;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+    background-color: #fff;
+}
+.city:nth-child(1)::after{
+    content: '';
+    height: 1px;
+    width: 160px;
+    background-color: #707070;
+    top: 17px;
+    right: -160px;
+    position: absolute;
+    z-index: 10;
+}
+.move::before{
+    content: '';
+    height: 26px;
+    width: 0;
+    border-left:1px solid #707070 ;
+    top: 0;
+    left: 30px;
+    position: absolute;
+    z-index: 10;
+}
+.bath {
+    border: #707070 1px solid;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+    background-color: #fff;
+}
+.day{
+    border: #707070 1px solid;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+    background-color: #fff;
+}
+.day-f{
+    width: 60px;
+}
+.day-f p{
+    color: #707070;
+}
+.btn-bar{
+    width: auto;
+    height: 70px;
+    background-color: #9D9287;
+    padding-top: 15px;
+}
+.city-wide{
+    width: auto;
+}
+.place{
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    padding: 5px;
+    transition: ease 0.3s;
+}
+.place a{
+    color: #707070;
+    text-decoration: none;
+}
+.place:hover{
+    background-color: #FDDE83;
+}
+.place .right{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.information_wrap{
+    border: 1px solid #707070;
+    margin: 3px;
+    padding: 3px;
+}
+.information_wrap p,.information_wrap a{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.information_wrap a{
+    font-size: 10px;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 112;
+  
+}
+.fixed + section {
+    margin-top: 70px;
+}
+
+
+#homePage header {
+    height: 100px;
+}
+
+#rootPage .plans a{
+    color: #707070;
+    text-decoration: none;
+}
+#spotDPage header{
+    position: fixed;
+}
+.bar{
+    height: 40px;
+    width: 100%;
+}
+.map-canvas_wrap{
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+}
+#map-canvas {
+	width: 375px ;
+	height: 230px ;
+}
+.final-map_wrap{
+    overflow-y: visible !important;
+    height: 480px !important;
+}
+.final-map{
+    height: 480px !important;
+}
