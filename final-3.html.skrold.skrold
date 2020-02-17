@@ -141,7 +141,7 @@
         });
     </script>
     <!-- ----------googleApi--------- -->
-    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key={AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I}"></script>
     <script src="js/map.js"></script>
 
     <script>

@@ -10,14 +10,14 @@
     <script src="/js/jquery341.js"></script>
     <script src="/js/bootstrap.js"></script>
 
-    <title>map2-4</title>
+    <title>map4-1</title>
 </head>
 <body id="mapPage">
     <header>
         <div class="header-wrap ml-2">
             <img src="/img/left-w.svg" class="mr-1">
-            <a href="/maps/map_2-3.html">戻る</a>
-            <h6>１日目　日光</h6>
+            <a href="/map.html">戻る</a>
+            <h6>１日目　中禅寺温泉</h6>
         </div>
     </header>
     <div class='map-canvas_wrap'>
@@ -33,14 +33,14 @@
             </div>
         </div>
         <div class="content">
-            <p class="mt-4">■日光</p>
+            <p class="mt-4">■中禅寺温泉</p>
             <div class="place mt-2">
                 <div class="row position-relative">
                     <div class="img_wrap col-4">
-                        <img src="/img/photo/image5.jpg">
+                        <img src="/img/photo/image16.jpg">
                     </div>
                     <div>
-                        <h6>10:00 ①二荒山神社</h6>
+                        <h6>10:00 ①明智平展望台</h6>
                         <div class="d-flex  align-items-center w-100">
                             <p class="text-s">目安滞在時間2時間</p>
                         </div>
@@ -48,17 +48,17 @@
                     <a href="/map.html"><img src="/img/close.svg" class='right'></a>
                 </div>
             </div>
-            <div class="d-flex justify-content-end align-self-center inner position-relative">
+            <!-- <div class="d-flex justify-content-end align-self-center inner position-relative">
                 <p class="mr-auto ml-5 text-s move">徒歩　１０分</p>
                 <a href="" class='text-s'>移動方法を変更</a>
             </div>
             <div class="place mt-2">
                 <div class="row position-relative">
                     <div class="img_wrap col-4">
-                        <img src="/img/photo/image6.jpg">
+                        <img src="/img/photo/image18.jpg">
                     </div>
                     <div>
-                        <h6>10:40 ②日光田母沢御用邸公園</h6>
+                        <h6>10:40 ②明智平ロープウェイ</h6>
                         <div class="d-flex  align-items-center w-100">
                             <p class="text-s">目安滞在時間30分</p>
                         </div>
@@ -73,10 +73,10 @@
             <div class="place mt-2">
                 <div class="row position-relative">
                     <div class="img_wrap col-4">
-                        <img src="/img/photo/image7.jpg">
+                        <img src="/img/photo/image19.jpg">
                     </div>
                     <div>
-                        <h6>13:00 ③日光東照宮 宝物館</h6>
+                        <h6>13:00 ③湯滝</h6>
                         <div class="d-flex  align-items-center w-100">
                             <p class="text-s">目安滞在時間　1時間</p>
                         </div>
@@ -92,10 +92,10 @@
             <div class="place mt-2">
                 <div class="row position-relative">
                     <div class="img_wrap col-4">
-                        <img src="/img/photo/image8.jpg">
+                        <img src="/img/photo/image20.jpg">
                     </div>
                     <div>
-                        <h6>14:40 ④家光廟 大猷院</h6>
+                        <h6>14:40 ④竜頭ノ滝</h6>
                         <div class="d-flex  align-items-center w-100">
                             <p class="text-s">目安滞在時間　2時間</p>
                         </div>
@@ -103,47 +103,47 @@
                     <a href="/map.html"><img src="/img/close.svg" class='right'></a>
                 </div>
             </div>
-            <!-- <div class="d-flex justify-content-end align-self-center inner position-relative">
+            <div class="d-flex justify-content-end align-self-center inner position-relative">
                 <p class="mr-auto ml-5 text-s move">徒歩　2０分</p>
                 <a href="" class='text-s'>移動方法を変更</a>
             </div>
             <div class="place mt-2">
                 <div class="row position-relative">
                     <div class="img_wrap col-4">
-                        <img src="/img/photo/image9.jpg">
+                        <img src="/img/photo/image21.jpg">
                     </div>
                     <div>
-                        <h6>16:00 ⑤神橋</h6>
+                        <h6>16:00 ⑤奥日光湯元温泉</h6>
                         <div class="d-flex  align-items-center w-100">
                             <p class="text-s">目安滞在時間　1時間</p>
                         </div>
                     </div>
                     <a href="/map.html"><img src="/img/close.svg" class='right'></a>
                 </div>
-            </div>
-        </div> -->
-            <div class="content">
-                <p>宿泊</p>
-                <div class="place mt-2 pt-3 pb-3">
-                    <a href="">
-                        <div class="row position-relative">
-                            <div class="ml-4">
-                                <h6>中禅寺温泉（栃木県・日光市）</h6>
-                                <div class="d-flex align-items-center w-100">
-                                    <p class="text-s ml-3">静かな森の湖畔でリラックスできます。</p>
-                                </div>
+            </div> -->
+        </div>
+        <div class="content">
+            <p>宿泊</p>
+            <div class="place mt-2 pt-3 pb-3">
+                <a href="">
+                    <div class="row position-relative">
+                        <div class="ml-4">
+                            <h6>中禅寺温泉（栃木県・日光市）</h6>
+                            <div class="d-flex align-items-center w-100">
+                                <p class="text-s ml-3">静かな森の湖畔でリラックスできます。</p>
                             </div>
-                            <img src="/img/right.svg" class='right'>
                         </div>
-                    </a>
-                </div>
+                        <img src="/img/right.svg" class='right'>
+                    </div>
+                </a>
             </div>
+        </div>
 
 
-            <div class="content btn-wrap">
-                <a href="map.html" class="btn btn-2 mt-5 mb-5">２日目の旅程を作成する</a>
-                <a href="../final-2.html" class="btn btn-1 mt-３ mb-5">完了</a>
-            </div>
+        <div class="content btn-wrap">
+            <a href="map.html" class="btn btn-2 mt-5 mb-5">２日目の旅程を作成する</a>
+            <a href="../final-4.html" class="btn btn-1 mt-３ mb-5">完了</a>
+        </div>
     </section>
     <script>
         $(function () {
@@ -153,7 +153,7 @@
         });
     </script>
     <!-- ----------googleApi--------- -->
-    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key={AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I}"></script>
     <script src="/js/map.js"></script>
 </body>
 </html>

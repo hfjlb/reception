@@ -4,49 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/base.css">
-    <script src="js/jquery341.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <script src="/js/jquery341.js"></script>
+    <script src="/js/bootstrap.js"></script>
 
-    <title>final-3</title>
+    <title>map2-1</title>
 </head>
 <body id="mapPage">
-    <div class='map-canvas_wrap final-map_wrap'>
-        <div id="map-canvas" class="map final-map"></div>
-    </div>
-    <div class="content " id='menu'>
-        <div class="row justify-content-center btn-bar">
-            <a href="">
-                <div class="col-3">
-                    <div class="day day-f">
-                        <p>全日程</p>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="col-3">
-                    <div class="day day-f">
-                        <p>１日目</p>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="col-3">
-                    <div class="day day-f">
-                        <p>２日目</p>
-                    </div>
-                </div>
-            </a>
-            <a href="back.html">
-                <div class="col-3">
-                    <div class="day day-f">
-                        <p>再作成</p>
-                    </div>
-                </div>
-            </a>
+    <header>
+        <div class="header-wrap ml-2">
+            <img src="/img/left-w.svg" class="mr-1">
+            <a href="/map.html">戻る</a>
+            <h6>１日目　日光</h6>
         </div>
+    </header>
+    <div class='map-canvas_wrap'>
+        <div id="map-canvas"></div>
     </div>
     <section class="inner">
         <div class="content">
@@ -58,19 +33,19 @@
             </div>
         </div>
         <div class="content">
-            <p class="mt-4">■中禅寺温泉</p>
+            <p class="mt-4">■日光</p>
             <div class="place mt-2">
                 <div class="row position-relative">
                     <div class="img_wrap col-4">
-                        <img src="/img/photo/image10.jpg">
+                        <img src="/img/photo/image5.jpg">
                     </div>
                     <div>
-                        <h6>10:00 ①いろは坂</h6>
+                        <h6>10:00 ①二荒山神社</h6>
                         <div class="d-flex  align-items-center w-100">
                             <p class="text-s">目安滞在時間2時間</p>
                         </div>
                     </div>
-
+                    <a href="/map.html"><img src="/img/close.svg" class='right'></a>
                 </div>
             </div>
             <div class="d-flex justify-content-end align-self-center inner position-relative">
@@ -80,15 +55,15 @@
             <div class="place mt-2">
                 <div class="row position-relative">
                     <div class="img_wrap col-4">
-                        <img src="/img/photo/image13.jpg">
+                        <img src="/img/photo/image6.jpg">
                     </div>
                     <div>
-                        <h6>10:40 ②中禅寺湖</h6>
+                        <h6>10:40 ②日光田母沢御用邸公園</h6>
                         <div class="d-flex  align-items-center w-100">
                             <p class="text-s">目安滞在時間30分</p>
                         </div>
                     </div>
-
+                    <a href="/map.html"><img src="/img/close.svg" class='right'></a>
                 </div>
             </div>
             <div class="d-flex justify-content-end align-self-center inner position-relative">
@@ -98,18 +73,55 @@
             <div class="place mt-2">
                 <div class="row position-relative">
                     <div class="img_wrap col-4">
-                        <img src="/img/photo/image14.jpg">
+                        <img src="/img/photo/image7.jpg">
                     </div>
                     <div>
-                        <h6>13:00 ③華厳の滝</h6>
+                        <h6>13:00 ③日光東照宮 宝物館</h6>
                         <div class="d-flex  align-items-center w-100">
                             <p class="text-s">目安滞在時間　1時間</p>
                         </div>
                     </div>
-
+                    <a href="/map.html"><img src="/img/close.svg" class='right'></a>
                 </div>
             </div>
 
+            <!-- <div class="d-flex justify-content-end align-self-center inner position-relative">
+                <p class="mr-auto ml-5 text-s move">バス　4０分</p>
+                <a href="" class='text-s'>移動方法を変更</a>
+            </div>
+            <div class="place mt-2">
+                <div class="row position-relative">
+                    <div class="img_wrap col-4">
+                        <img src="/img/photo/image8.jpg">
+                    </div>
+                    <div>
+                        <h6>14:40 ④家光廟 大猷院</h6>
+                        <div class="d-flex  align-items-center w-100">
+                            <p class="text-s">目安滞在時間　2時間</p>
+                        </div>
+                    </div>
+                    <a href="/map.html"><img src="/img/close.svg" class='right'></a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end align-self-center inner position-relative">
+                <p class="mr-auto ml-5 text-s move">徒歩　2０分</p>
+                <a href="" class='text-s'>移動方法を変更</a>
+            </div>
+            <div class="place mt-2">
+                <div class="row position-relative">
+                    <div class="img_wrap col-4">
+                        <img src="/img/photo/image9.jpg">
+                    </div>
+                    <div>
+                        <h6>16:00 ⑤神橋</h6>
+                        <div class="d-flex  align-items-center w-100">
+                            <p class="text-s">目安滞在時間　1時間</p>
+                        </div>
+                    </div>
+                    <a href="/map.html"><img src="/img/close.svg" class='right'></a>
+                </div>
+            </div>
+        </div> -->
             <div class="content">
                 <p>宿泊</p>
                 <div class="place mt-2 pt-3 pb-3">
@@ -121,7 +133,7 @@
                                     <p class="text-s ml-3">静かな森の湖畔でリラックスできます。</p>
                                 </div>
                             </div>
-                            <img src="img/right.svg" class='right'>
+                            <img src="/img/right.svg" class='right'>
                         </div>
                     </a>
                 </div>
@@ -130,7 +142,7 @@
 
             <div class="content btn-wrap">
                 <a href="map.html" class="btn btn-2 mt-5 mb-5">２日目の旅程を作成する</a>
-                <a href="" class="btn btn-1 mt-３ mb-5">完了</a>
+                <a href="../final-2.html" class="btn btn-1 mt-３ mb-5">完了</a>
             </div>
     </section>
     <script>
@@ -141,27 +153,7 @@
         });
     </script>
     <!-- ----------googleApi--------- -->
-    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I"></script>
-    <script src="js/map.js"></script>
-
-    <script>
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 470) { //470px以上スクロールした固定
-                    $('#menu').addClass('fixed');
-                } else {
-                    $('#menu').removeClass('fixed');
-                }
-            });
-        });
-        window.onload = function () {
-            // 実行したい処理
-            $(function () {
-                $('html, body').animate({ scrollTop: 300 }, 001, 'swing');
-            });
-        }
-
-
-    </script>
+    <script src="//maps.googleapis.com/maps/api/js?key={AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I}"></script>
+    <script src="/js/map.js"></script>
 </body>
 </html>
